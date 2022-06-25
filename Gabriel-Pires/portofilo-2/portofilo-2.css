@@ -1,0 +1,501 @@
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portofilo-2-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 135px;
+  background-color: #28293e;
+}
+
+a {
+  text-decoration: none;
+}
+.portofilo-nav-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Epilogue";
+  color: #ffffff;
+  padding-top: 18px;
+}
+
+.portofilo-nav-items li a {
+  padding: 2rem;
+  color: #ffffff;
+}
+.portofilo-nav-items li a:hover {
+  color: red;
+}
+
+.ctn {
+  border: 1px solid whitesmoke;
+  font-weight: 900;
+  font-family: "Epilogue";
+}
+.portofilo-2-contact:hover {
+  background-color: #ffffff;
+}
+
+.portofilo-header-text {
+  text-align: center;
+  background-color: #28293e;
+  padding-top: 65px;
+  padding-bottom: 60px;
+}
+
+.portofilo-header-text h1 {
+  width: 311px;
+  height: 80px;
+  font-size: 72px;
+  font-weight: 900;
+  margin-left: 477px;
+  font-family: "Epilogue";
+  color: #ffffff;
+}
+
+.portofilo-header-text p {
+  width: 570px;
+  height: 66px;
+  margin-left: 369px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Epilogue";
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.portofilo-center {
+  padding: 30px 465px;
+  background-color: #fdf0e9;
+}
+
+.portofilo-center ul li {
+  list-style: none;
+  display: flex;
+}
+
+.portofilo-number ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 56px;
+  margin-bottom: 4px;
+}
+.portofilo-number ul li {
+  font-family: "Epilogue";
+  opacity: 0.5;
+}
+.portofilo-center-text ul {
+  display: flex;
+}
+.portofilo-center-text ul li {
+  font-weight: 400;
+  font-family: "Epilogue";
+  font-size: 16px;
+  opacity: 0.5;
+}
+.portofilo-center-text ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.portofilo-section-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 275px;
+  position: relative;
+}
+
+.portofilo-pic-section {
+  padding-left: 30px 135px;
+  background-color: #fdf0e9;
+}
+.pic {
+  width: 250px;
+  height: 250px;
+}
+.portofilo-design {
+  width: 61px;
+  height: 26px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 114px;
+  left: 306px;
+  border: none;
+  border-radius: 19px;
+}
+.sofa {
+  width: 75px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 305px;
+  bottom: 100px;
+  color: #ffffff;
+}
+
+.branding {
+  width: 75px;
+  height: 28px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 111px;
+  left: 554px;
+  border: none;
+  border-radius: 19px;
+}
+
+.keyboard {
+  width: 75px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 551px;
+  bottom: 100px;
+  color: #ffffff;
+}
+
+.illustration {
+  width: 78px;
+  height: 30px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 108px;
+  left: 810px;
+  border: none;
+  border-radius: 19px;
+}
+
+.work-media {
+  width: 150px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 809px;
+  bottom: 100px;
+  color: #ffffff;
+}
+
+.portofilo-section-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 275px;
+  position: relative;
+}
+
+.motion {
+  width: 61px;
+  height: 26px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 58px;
+  left: 306px;
+  border: none;
+  border-radius: 19px;
+}
+
+.done {
+  width: 75px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 305px;
+  bottom: 50px;
+  color: #ffffff;
+}
+
+.porto-2-design {
+  width: 75px;
+  height: 28px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 59px;
+  left: 554px;
+  border: none;
+  border-radius: 19px;
+}
+
+.abstract {
+  width: 75px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 551px;
+  bottom: 55px;
+  color: #ffffff;
+}
+
+.porto-2-branding {
+  width: 78px;
+  height: 30px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 59px;
+  left: 810px;
+  border: none;
+  border-radius: 19px;
+}
+
+.handp {
+  width: 150px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 809px;
+  bottom: 56px;
+  color: #ffffff;
+}
+
+.portofilo-section-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 275px;
+  position: relative;
+}
+
+.motion-3 {
+  width: 61px;
+  height: 26px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 58px;
+  left: 306px;
+  border: none;
+  border-radius: 19px;
+}
+.architect {
+  width: 75px;
+  height: 0px;
+  font-size: 22px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 305px;
+  bottom: 50px;
+  color: #ffffff;
+}
+
+.design-3 {
+  width: 75px;
+  height: 28px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 59px;
+  left: 554px;
+  border: none;
+  border-radius: 19px;
+}
+
+.calc {
+  width: 75px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 551px;
+  bottom: 55px;
+  color: #ffffff;
+}
+
+.branding-3 {
+  width: 78px;
+  height: 30px;
+  background-color: #ffffff;
+  font-family: "Epilogue";
+  position: absolute;
+  bottom: 59px;
+  left: 810px;
+  border: none;
+  border-radius: 19px;
+}
+
+.sport {
+  width: 150px;
+  height: 0px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Epilogue";
+  position: absolute;
+  left: 809px;
+  bottom: 56px;
+  color: #ffffff;
+}
+.pires {
+  width: 100%;
+  background-color: #fdf0e9;
+}
+.pires-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px;
+}
+
+.pires-container-left {
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.pires-container h5 {
+  width: 141px;
+  height: 32px;
+  font-weight: 400;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #ef6d58;
+}
+
+.pires-container h2 {
+  width: 368px;
+  height: 192px;
+  font-weight: 800;
+  font-family: "Epilogue";
+  font-size: 55px;
+  line-height: 58px;
+  color: #391400;
+}
+
+.pires-container-left p {
+  width: 470px;
+  height: 66px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: "Epilogue";
+  opacity: 0.5;
+}
+
+.pires-btn {
+  width: 154px;
+  height: 48px;
+  border: none;
+  margin-top: 34px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Epilogue";
+  color: #ffffff;
+  background-color: #ef6d58;
+}
+
+.footer-end {
+  background-color: #28293e;
+  padding: 50px 140px;
+}
+.footer-end-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+.footer-col {
+  width: 25%;
+  padding: 0px 100px;
+}
+
+.footer-personal {
+  width: 108px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Epilogue";
+  color: #ffffff;
+}
+
+.footer-col h5 {
+  width: 52px;
+  height: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Epilogue";
+  color: #ef6d58;
+}
+.footer-col ul li:hover {
+  color: red;
+}
+
+a {
+  width: 105px;
+  height: 45px;
+  color: #ffffff;
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Epilogue";
+  opacity: 0.5;
+}
+
+.pires-social {
+  display: flex;
+}
+
+.social-oval {
+  width: 48px;
+  height: 48px;
+}
+.line {
+  width: 200px;
+  height: 4px;
+  color: red;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+.pires-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.pires-footer-left {
+  width: 351px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Epilogue";
+  color: #ffffff;
+  opacity: 0.5;
+}
+.pires-footer-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pires-footer-right p {
+  font-size: 16px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  padding: 0px 20px;
+  color: #ffffff;
+  opacity: 0.5;
+}
